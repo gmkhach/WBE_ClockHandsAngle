@@ -38,7 +38,7 @@ namespace WBE_ClockHandsAngle
             {
                 hHand = 0;
             }
-            double angle = mHand * 6 - (hHand * 5 + mHand * 1 / 12.0);
+            double angle = mHand * 6 - (hHand * 30 + mHand * 1 / 2.0);
             if (angle > 180)
             {
                 angle = 360 - angle;
